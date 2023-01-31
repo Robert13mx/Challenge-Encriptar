@@ -1,0 +1,31 @@
+html, body {
+    min-height: 100%;
+}
+
+body {
+    background: linear-gradient(blue, 10%, pink);
+}
+
+.imagen {
+    height: 120px;
+    width: 100%;
+}
+
+.main {
+    padding: 30px;
+}
+
+.caja {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    font-weight: bold;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}

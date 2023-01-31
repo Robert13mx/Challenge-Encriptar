@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+
+        <h1> <img class="imagen" src="imagenes/signo.jpg"></h1>
+
+        
+    </header>
+   <p></p>
+        <main class="main">
+            <h2 class="caja">Código Secreto</h2>
+
+                <section class="form box">
+                    <form action="">
+                        <label for="input-texto">Solo letras minúsculas, sin acento</label>
+                        <input class="text-input" type="text" name="input-texto" id="input-texto" placeholder="Ingrese el texto aqui">
+                        <input class="btn" type="button" value="encriptar!" id="btn-encriptar">
+                        <input class="btn" type="button" value="desencriptar!" id="btn-desencriptar">
+                    </form>
+                </section>
+  
+                <section class="msg box">
+                    <h2 id="">Mensaje encriptada:</h2>
+                    <input class="text-input-salida" type="text" id="msg">
+                    <button onclick="copyToClipBoard()">Copiar</button>
+                </section>
+
+        </main>
+
+    <script src="script.js"></script>
+    <script src="Copiar-pegar.js"></script>
+
+</body>
+</html>
